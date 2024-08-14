@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia Alura</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main class="apresentacao">
+
+        <div class="content-wrapper">
+            <div class="content">
+
+                <h1>Criptografador de Texto</h1>
+
+
+                <textarea id="inputTexto" placeholder="Digite seu texto aqui..."></textarea>
+                <div class="buttons">
+                    <button class="btn-criptografar" onclick="criptografar()">Criptografar</button>
+                    <button class="btn-descriptografar" onclick="descriptografar()">Descriptografar</button>
+                    <button class="btn-copiar" onclick="copiar()">Copiar</button>
+                </div>
+                <div id="outputTexto">
+                    <p id="mensagem"></p>
+                </div>
+            </div>
+            <div class="rectangle"></div> <!-- Este é o retângulo que adicionaremos -->
+        </div>
+        <img class="apresentacao__imagem" src="./assets/img/boneco_lupa.png" alt="Foto de um boneco com uma lupa na mão">
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Rodrigo Pinto Fernandes</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
